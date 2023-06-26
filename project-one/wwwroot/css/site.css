@@ -1,18 +1,41 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  margin-bottom: 60px;
+    background: silver;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 80%;
+    padding: 15px 10%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    border-bottom: 2px solid #000;
+}
+
+main {
+    width: 80%;
+    padding: 15px 10%;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.inputs {
+    display: table-caption;
+}
+
+footer {
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+    padding: 25px 0;
+    color: #fff;
+    background: #333;
+    border-top: 2px solid #000;
 }
